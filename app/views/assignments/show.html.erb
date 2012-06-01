@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Token:</b>
+  <%= @assignment.token %>
+</p>
+
+<p>
+  <b>Hash:</b>
+  <%= @assignment.hash %>
+</p>
+
+<p>
+  <b>Value:</b>
+  <%= @assignment.value_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_assignment_path(@assignment) %> |
+<%= link_to 'Back', assignments_path %>

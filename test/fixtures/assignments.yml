@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  token: MyString
+  hash: MyString
+  value_id: 1
+
+two:
+  token: MyString
+  hash: MyString
+  value_id: 1
